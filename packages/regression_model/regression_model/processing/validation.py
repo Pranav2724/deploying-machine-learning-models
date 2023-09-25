@@ -1,4 +1,4 @@
-from regression_model.config import config
+from classification_model.config import config
 
 import pandas as pd
 

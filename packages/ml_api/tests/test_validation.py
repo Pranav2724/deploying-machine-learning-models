@@ -1,12 +1,12 @@
 import json
 
-from regression_model.config import config
-from regression_model.processing.data_management import load_dataset
+from classification_model.config import config
+from classification_model.processing.data_management import load_dataset
 
 
 def test_prediction_endpoint_validation_200(flask_test_client):
     # Given
-    # Load the test data from the regression_model package.
+    # Load the test data from the classification_model package.
     # This is important as it makes it harder for the test
     # data versions to get confused by not spreading it
     # across packages.

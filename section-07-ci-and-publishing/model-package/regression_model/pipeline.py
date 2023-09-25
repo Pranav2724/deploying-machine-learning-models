@@ -11,8 +11,8 @@ from sklearn.linear_model import Lasso
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import Binarizer, MinMaxScaler
 
-from regression_model.config.core import config
-from regression_model.processing import features as pp
+from classification_model.config.core import config
+from classification_model.processing import features as pp
 
 price_pipe = Pipeline(
     [

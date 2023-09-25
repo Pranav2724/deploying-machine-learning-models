@@ -6,8 +6,8 @@ differential test versioning logic.
 
 import pandas as pd
 
-from regression_model.predict import make_prediction
-from regression_model.processing.data_management import load_dataset
+from classification_model.predict import make_prediction
+from classification_model.processing.data_management import load_dataset
 
 from api import config
 

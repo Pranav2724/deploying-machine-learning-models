@@ -4,9 +4,9 @@ import math
 import os
 
 from neural_network_model.config import config as ccn_config
-from regression_model import __version__ as _version
-from regression_model.config import config as model_config
-from regression_model.processing.data_management import load_dataset
+from classification_model import __version__ as _version
+from classification_model.config import config as model_config
+from classification_model.processing.data_management import load_dataset
 
 from api import __version__ as api_version
 
@@ -32,7 +32,7 @@ def test_version_endpoint_returns_version(flask_test_client):
 
 def test_prediction_endpoint_returns_prediction(flask_test_client):
     # Given
-    # Load the test data from the regression_model package
+    # Load the test data from the classification_model package
     # This is important as it makes it harder for the test
     # data versions to get confused by not spreading it
     # across packages.

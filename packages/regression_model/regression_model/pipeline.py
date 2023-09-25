@@ -2,9 +2,9 @@ from sklearn.linear_model import Lasso
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
 
-from regression_model.processing import preprocessors as pp
-from regression_model.processing import features
-from regression_model.config import config
+from classification_model.processing import preprocessors as pp
+from classification_model.processing import features
+from classification_model.config import config
 
 import logging
 
