@@ -260,7 +260,7 @@ tags_only: &tags_only
   filters:
     branches:
       #ignore: /.*/
-    only: master
+      only: master
     tags:
       only: /^.*/
 
